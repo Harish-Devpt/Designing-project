@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+#navpart1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+#nav h2 {
+  font-size: 17px;
+  border: 2px solid black;
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+i {
+  font-size: 17px;
+  border: 2px solid black;
+  padding:4px 7px;
+  border-radius: 90px;
+  font-weight: 500;
+}
+
+
+#nav h1{
+
+    font-size: 50px;
+    font-weight:520;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 17px #910000;
+}
+
+#nav button{
+background-color: ;
+    padding: 3px 10px;
+    border-radius: 90px;
+    border: 1.5px solid black;
+    font-size: 17px;
+    font-weight:600;
+
+}
+
+#btn2{
+
+background-color: orangered;
+color: white;
+border: none;
+}
+
+#text{
+
+    font-size: 180px;
+    text-transform:uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+img{
+
+    height: 570px;
+    width: 450px;
+    object-position: top;
+    object-fit: cover;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+border-radius: 20px;
+}
+
+#img1{
+
+    transform: translate(-50%,-50%) rotate(-18deg);
+    box-shadow: -3px 4px 14px 12px rgb(125 147 237);
+   
+}
+
+#img2{
+
+    transform: translate(-50%,-50%) rotate(-15deg);
+}
+
+
+#img3{
+
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+
+#img4{
+
+    transform: translate(-50%,-50%) rotate(-6deg);
+}
+
+#img5{
+
+    transform: translate(-50%,-50%) rotate(deg);
+    border: 2px solid black;
+}
+
+#footer1{
+position: absolute;
+    bottom: 45px;
+    left: 3%;
+    font-size: 15px;
+}
+
+
+
+#footer2{
+    position: absolute;
+        bottom: 25px;
+        right: 3%;
+        font-size: 15px;
+    }
+
+    #inst{
+
+        color: red;
+        background-color: pink;
+        border-radius: 90px;
+        padding:  7px;
+        position: absolute;
+        bottom: 6%;
+        right: 17%;
+
+    }
+
+    #twi{
+
+      color: blue;
+      background-color: pink;
+      border-radius: 90px;
+      padding:  7px;
+      position: absolute;
+      bottom: 6%;
+      right: 11%;
+
+  }
+
+
+  #face{
+
+    color: lightblue;
+    background-color: pink;
+    border-radius: 90px;
+    padding:  7px;
+    position: absolute;
+    bottom: 6%;
+    right: 5%;
+
+}
+
+
+#arrow{
+  color: red;
+  background-color: wheat;
+  border-radius: 90px;
+  padding:  7px;
+  position: absolute;
+  bottom: -5%;
+  right: 50%;
+  transform: translateX(50%);
+  padding: 40px;
+  size: 56px;
+  
+
+}
